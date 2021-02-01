@@ -1,0 +1,168 @@
+<!--doctype html-->
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<title>Personal Website</title>
+<head>
+  <!--using FontAwesome---------------->
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+<link rel="stylesheet" href="style.css">
+	<!--style----->
+	<style>
+		body{
+			font-family:poppins;
+		}
+	</style>
+	
+</head>
+<body>
+  <section>
+    <!--navigation------------------------->
+    <nav>
+  
+    <!--menu-->
+    <ul>
+    <li><a href="#Home" class="active">Home</a></li>
+    <li><a href="#About">About</a></li>
+    <li><a href="#Skills">Skills</a></li>
+    <li><a href="#Education">Education</a></li>
+    <li><a href="#Contact">Contact Me</a></li>
+
+    </ul>
+    <!--bars--------------->
+    <div class="toggle"></div>
+    
+    </nav>
+    </section>
+
+    <!--text----------------------->
+		<div class="text-container" id="Home">
+			<p>Hello,</p>
+		    <p>I&#8217;<br>VENKATA ANUHYA<br>TUMMALA</p>
+			<p>A 2nd year CSE student</p>
+		</div>
+	<!--model---------------------->
+  <img alt="model" class="model" src="my image.jpeg">  
+  
+  <div class="about-container" id="About">
+    <!--about-me-text-->
+      <div class="about-text">
+      <p>About Me</p>
+      <p></p>
+      <p>Hi,My name is Venkat Anuhya Tummala.I&#8217 currently pursuing my graduation in B.TECH in Computer Science and Engineering.</p>
+      <p>I am Computer Science enthusiast and I always aspire to be a innovative programmer.</p>
+      </div>
+    </div>
+
+    <div class="skills-container" id="Skills">
+    <div class="skills">
+      <p>Skills<p>
+      <ul>
+        <li>Languages known: English,Telugu,Hindi</li>
+        <li>C</li>
+        <li>C++</li>
+        <li>Python</li>
+        <li>Javascript</li>
+        <li>Data Structures</li>
+        <li>Algorithms</li>
+        <li>Fusion 360</li>
+        <li>Engineering drawing</li>
+      </ul>
+    </div>
+  </div>
+
+
+<div class="education-container" id="Education">
+  <p class="Education">My Education</p>
+  <div class="page">
+    <div class="timeline">
+      <div class="timeline__group">
+        <span class="timeline__year time" aria-hidden="true">2019</span>
+        <div class="timeline__cards">
+          <div class="timeline__card card">
+            <header class="card__header">
+              <time class="time" datetime="2008-02-02">
+                <span class="time__day"></span>
+                <span class="time__month">(B.Tech+M.Tech)CSE</span>
+              </time>
+            </header>
+            <div class="card__content">
+              <p>IIITDM Kancheepuram, Chennai</p>
+              <p>CGPA:8.65</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="timeline__group">
+        <span class="timeline__year time" aria-hidden="true">2017</span>
+        <div class="timeline__cards">
+          <div class="timeline__card card">
+            <header class="card__header">
+              <time class="time" datetime="2008-07-14">
+                <span class="time__day"></span>
+                <span class="time__month">Intermediate</span>
+              </time>
+            </header>
+            <div class="card__content">
+              <p>FIITJEE</p>
+              <p>9.8 CGPA</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="timeline__group">
+        <span class="timeline__year time" aria-hidden="true">2016</span>
+        <div class="timeline__cards">
+          <div class="timeline__card card">
+            <header class="card__header">
+              <time class="time" datetime="2008-08-18">
+                <span class="time__day"></span>
+                <span class="time__month">ICSE 10th class</span>
+              </time>          
+            </header>
+            <div class="card__content">
+              <p>ETASI Timpany School</p>
+              <p>percentage scored:93.5% </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+    
+  
+  
+  <!--footer--------------->
+ <footer>
+  <!--heading-->
+ <p>Anuhya</p>
+ <p><i class="fas fa-phone-alt"></i> 7901646666<br><i class="fas fa-envelope-open"></i> anuhyatummala2001@gmail.com</p>
+  <!--paragraph-->
+  <!--social-->
+ <div class="social-icons" id="Contact">
+ <a href="https://www.linkedin.com/in/anuhya-tummala-739771195"><i class="fab fa-linkedin-in"></i></a>
+ </div>
+  <!--copyright-->
+  <p class="copyright">Copyright by Anuhya 2020</p>
+</footer>
+ <!--JQUery-------------------->
+<script type="text/javascript" src="js/JQuery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.toggle').click(function(){
+    $('.toggle').toggleClass('active')
+    $('nav').toggleClass('active')
+  })
+})
+</script>
+
+</body>
+</html>
